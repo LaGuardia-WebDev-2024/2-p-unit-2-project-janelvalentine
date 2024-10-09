@@ -1,37 +1,72 @@
 <!--
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[ yes ] Two Element Selectors
+[yes] Two ID Selectors
+[yes ] Two Class Selectors
+[ yes] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Background Image
+[ yes ] Feature 1 - Include a Background Image
 [ no ] Feature 2 - Include Border Radius CSS Property
 [ no ] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
-[ no ] Feature 5 - Include Border CSS Property
--->
-    
-<!DOCTYPE HTML>
+[ yes ] Feature 5 - Include Border CSS Property
+--->
+
+<!DOCTYPE html>
 <html>
-    <head>
-      <style>
-        body {background-image:url("https://tourscanner.com/blog/wp-content/uploads/2021/04/fun-things-to-do-in-Puerto-Rico.jpg")}
-        #RICO { color:red;}
-        .beach{
-      </style>
-        <meta charset="utf-8">
-        <title>Unit 2 Project</title>
-    </head>
-    <body>
-<h1 >Sounds of Coqui's🐸</h1> 
-      <h1 id="RICO" > PUERTO RICO</h1>
-      
-      <h3>Places You <stong>MUST</stong> Visit </h3>
-      <ol>
-        <li class= "beach">La PLAYA</li>
-      </ol>
-        <img src="https://lirp.cdn-website.com/88c8ea2e/dms3rep/multi/opt/Photo+Apr+21+2020-+11+14+31+AM-640w.jpg">
-    </body>
+  <head>
+    <style>
+      body {
+        background-image: url("https://tourscanner.com/blog/wp-content/uploads/2021/04/fun-things-to-do-in-Puerto-Rico.jpg");
+      }
+
+      #RICO {
+        color: red;
+      }
+      #beach {
+        color: rgb(11, 25, 165);
+      }
+      h3 {
+        color: pink;
+      }
+      img {
+        border: 6px solid #e3c42a;
+      }
+      .info {
+        background-color: rgb(248, 153, 248);
+      }
+      .city {
+        color: red;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <title>Unit 2 Project</title>
+  </head>
+  <body>
+    <h1>Sounds of Coqui's🐸</h1>
+    <h1 id="RICO">PUERTO RICO</h1>
+    <h3>Places You <stong>MUST</stong> Visit</h3>
+    <ol>
+      <li id="beach">La PLAYA</li>
+      <strong class="info">
+        Cabo Rojo is very popular tourist destination. The locals are welcoming
+        and kind, and the town is known for being laid back and chill.
+      </strong>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0Yg5Cd2T-YaK4gn2euOvmXICwWLtVWu4Jg&s"
+        width="500"
+      />
+      <li>SAN JUAN</li>
+      <strong class="city"
+        >San Juan is Puerto Rico's capital and largest city. Cobblestoned, Old
+        San Juan has colorful Spanish colonial buildings and 16th-century
+        landmarks.</strong
+      >
+      <img
+        src="https://media.architecturaldigest.com/photos/5ace1d482204b06f8e237dd6/16:9/w_2560%2Cc_limit/GettyImages-637492668.jpg"
+        width="500"
+      />
+    </ol>
+  </body>
 </html>
